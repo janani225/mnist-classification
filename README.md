@@ -9,8 +9,9 @@ Digit classification and to verify the response for scanned handwritten images.
 
 The MNIST dataset is a collection of handwritten digits. The task is to classify a given image of a handwritten digit into one of 10 classes representing integer values from 0 to 9, inclusively. The dataset has a collection of 60,000 handwrittend digits of size 28 X 28. Here we build a convolutional neural network model that is able to classify to it's appropriate numerical value.
 ## Neural Network Model
+![image](https://github.com/janani225/mnist-classification/assets/113497333/b9f4a064-d878-4c88-aef9-813fb159cfcb)
 
-![image](https://github.com/janani225/mnist-classification/assets/113497333/439876e3-13a2-4680-b819-5994ba52386c)
+
 
 
 ## DESIGN STEPS
@@ -109,19 +110,21 @@ print(x_single_prediction)
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
+![image](https://github.com/janani225/mnist-classification/assets/113497333/e1e11fa1-4ed3-42b9-874d-14faa1f11a9e)
 
-![image](https://github.com/janani225/mnist-classification/assets/113497333/9994e571-9a0c-4809-b6a0-5dfccb383d57)
+![image](https://github.com/janani225/mnist-classification/assets/113497333/4f545eba-34a5-4d68-9fdc-73daeaea5428)
 
-![image](https://github.com/janani225/mnist-classification/assets/113497333/0d54c2ec-09b3-4d57-832e-b59621e6a779)
 
 ### Classification Report
 
-![image](https://github.com/janani225/mnist-classification/assets/113497333/f2cdc2f4-67d8-4cbc-b0a7-cc273b7a23ad)
+![Screenshot 2024-03-20 140244](https://github.com/janani225/mnist-classification/assets/113497333/5ec4d95e-cfb6-429d-a505-521ae092fc6e)
+
 
 
 ### Confusion Matrix
+![image](https://github.com/janani225/mnist-classification/assets/113497333/55f7c2da-cb0a-4cfc-82bb-3d193e814486)
 
-![image](https://github.com/janani225/mnist-classification/assets/113497333/6beb3704-153e-4ba6-a5fb-180132fe4154)
+
 
 
 ### New Sample Data Prediction
